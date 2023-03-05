@@ -1,5 +1,3 @@
-package skiplist;
-
 
 /**
  * 跳表的一种实现方法。

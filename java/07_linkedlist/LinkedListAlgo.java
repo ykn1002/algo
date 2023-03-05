@@ -1,4 +1,3 @@
-package linkedlist;
 
 /**
  * 1) 单链表反转
@@ -88,6 +87,14 @@ public class LinkedListAlgo {
  	*     ListNode(int x) { val = x; }
  	* }
 	*/
+    public class ListNode {
+      int val;
+      ListNode next;
+
+      ListNode(int x) {
+        val = x;
+      }
+    }
    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode soldier = new ListNode(0); //利用哨兵结点简化实现难度 技巧三
         ListNode p = soldier;

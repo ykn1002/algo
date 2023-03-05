@@ -1,4 +1,3 @@
-package com.study.skiplist;
 
 import java.util.Random;
 
